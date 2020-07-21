@@ -1,3 +1,5 @@
+package RunningSumof1dArray_1480;
+
 //Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 //
 //        Return the running sum of nums.
@@ -25,7 +27,7 @@ public class Solution {
 //        int[] nums1 = {1,1,1,1,1};
 //        int[] nums2 = {3,1,2,10,1};
 
-        RunningSumof1dArray_1480.Solution solution = new RunningSumof1dArray_1480.Solution();
+        Solution solution = new Solution();
         System.out.println(Arrays.toString(solution.runningSum(nums)));
 //        System.out.println(Arrays.toString(solution.runningSum(nums1)));
 //        System.out.println(Arrays.toString(solution.runningSum(nums2)));
