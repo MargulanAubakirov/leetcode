@@ -26,7 +26,9 @@ public class Solution1 {
         int [] nums = {1,2,3,1,1,3};
         Solution1 solution1 = new Solution1();
         System.out.println(solution1.numIdenticalPairs(nums));
-//        int [] nums1 = {1,1,1,1};
-//        int [] nums2 = {1,2,3};
+        int [] nums1 = {1,1,1,1};
+        int [] nums2 = {1,2,3};
+        System.out.println(solution1.numIdenticalPairs(nums1));
+        System.out.println(solution1.numIdenticalPairs(nums2));
     }
 }
