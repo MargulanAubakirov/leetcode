@@ -18,7 +18,7 @@ public class Solution {
         int t = 9;
         int[] arr = {2,7,11,15};
         Solution s = new Solution();
-        int[] result = (s.twoSum(arr, t));
+        int[] result =  (s.twoSum(arr, t));
         System.out.println(Arrays.toString(result));
     }
 
